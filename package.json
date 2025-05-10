@@ -1,0 +1,43 @@
+{
+  "name": "react-18-ssr",
+  "version": "1.0.0",
+  "description": "react 18 + loadable + express 조합으로 csr 환경을 구축한 레포입니다.",
+  "scripts": {
+    "dev": "rm -rf dist && node server.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonwonjae/react-18-ssr.git"
+  },
+  "author": "luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonwonjae/react-18-ssr/issues"
+  },
+  "homepage": "https://github.com/sonwonjae/react-18-ssr#readme",
+  "dependencies": {
+    "@loadable/server": "^5.16.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@loadable/babel-plugin": "^5.16.1",
+    "@loadable/webpack-plugin": "^5.15.2",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "express": "^5.1.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-middleware": "^7.4.2",
+    "webpack-dev-server": "^5.2.1",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
